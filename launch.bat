@@ -1,0 +1,1 @@
+wscript.exe C:\kaas\invisible.vbs file.bat

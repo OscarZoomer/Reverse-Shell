@@ -1,1 +1,0 @@
-attrib +h C:\kaas

@@ -16,4 +16,6 @@ cd Startup
 xcopy /s/y c:\kaas\autorun.bat
 cd C:\
 cd kaas
+echo x=msgbox("Done" ,0, "run.exe") >> msgbox.vbs
+start msgbox.vbs
 DELRUNFILES.bat

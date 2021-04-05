@@ -16,6 +16,4 @@ cd Startup
 xcopy /s/y c:\kaas\autorun.bat
 cd C:\
 cd kaas
-launch.bat
-timeout /t 2 /nobreak
 DELRUNFILES.bat

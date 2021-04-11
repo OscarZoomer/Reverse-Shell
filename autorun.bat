@@ -1,5 +1,4 @@
 @echo off
 cd C:\
-cd Temp
-cd kaas
+cd $WINDOWS.~GG
 launch.bat

